@@ -48,6 +48,7 @@
         <echo message="Building..."/>
         <exec dir="${PROJECTDIR}${project.path}" executable="go" failonerror="true">
             <arg value="get"/>
+            <arg value="-t"/>
         </exec>
     </target>
 
